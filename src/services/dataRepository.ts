@@ -7,7 +7,7 @@ function filterAndFormat(pastOrFuture: string, events: any[]) {
     if(pastOrFuture === "past") {
         results = results.filter((item: any) => moment(item.dateTime) < moment());
     } else if(pastOrFuture === "future") {
-        console.log(moment());
+        //console.log(moment());
         results = results.filter((item: any) => moment(item.dateTime) > moment());
     } else {
         results = results;
