@@ -13,6 +13,14 @@ npm install
 This will install all required dependencies, including a local version of Webpack that is going to
 build and bundle the app. There is no need to install Webpack globally. 
 
+There is an annoying conflict on the variable $ declaration between jQuery.d.ts and protractor.d.ts. To fix this issue,
+open typings\global\jquery\index.d.ts and change the following line at the bottom to 
+export = jQuery from 
+export = $ and comment out the line 
+// declare var $: JQueryStatic;
+
+I'll try to move the jQuery.d.ts into custom_typings later to avoid editing this file everytime you run "npm install".
+
 To run the app execute the following command:
 
 ```shell
