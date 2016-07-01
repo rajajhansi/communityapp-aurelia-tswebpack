@@ -1,0 +1,4 @@
+﻿{
+  "webroot" : "wwwroot/dist",
+  "server.urls": "http://localhost:9010/"
+}
