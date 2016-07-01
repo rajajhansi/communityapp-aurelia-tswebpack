@@ -28,7 +28,7 @@ npm start
 ```
 
 This command starts the webpack development server that serves the build bundles.
-You can now browse the skeleton app at http://localhost:9000. Changes in the code
+You can now browse the communityapp-aurelia-aspnetcore-tswebpack app at http://localhost:9000. Changes in the code
 will automatically build and reload the app.
 
 ## Feature configuration
